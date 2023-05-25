@@ -17,3 +17,5 @@ package.json ->   add in "scripts" a "server" command as following:
 create api.http with REST requests for testing API
 
 Add Context for sharing books[] and functions (create, edit, delete and fetch).
+
+Custom hook useBooksContext = useContext(BooksContext);
