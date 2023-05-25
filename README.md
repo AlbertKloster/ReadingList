@@ -19,3 +19,5 @@ create api.http with REST requests for testing API
 Add Context for sharing books[] and functions (create, edit, delete and fetch).
 
 Custom hook useBooksContext = useContext(BooksContext);
+
+useCallback for passing a fetch function to the useEffect without causing infinite loop.
