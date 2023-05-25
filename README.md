@@ -1,7 +1,7 @@
 # Reading List App
 ## Modern React with Redux
 
-## Second Stage 2023/05/24
+## Third Stage 2023/05/24
 
 npm install json-server
 
@@ -15,3 +15,5 @@ package.json ->   add in "scripts" a "server" command as following:
 }
 
 create api.http with REST requests for testing API
+
+Add Context for sharing books[] and functions (create, edit, delete and fetch).
